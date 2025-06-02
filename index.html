@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Adiyaan R - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Mohammed Adiyaan R</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <button class="theme-toggle btn btn--secondary" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Mohammed Adiyaan R</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span id="typing-text"></span>
+                </div>
+                <p class="hero-description">
+                    A passionate developer and aspiring technologist skilled in building full-stack applications, 
+                    solving complex problems, and innovating at the intersection of AI, software engineering, and user experience.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn--primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn--outline">View My Work</a>
+                </div>
+                <div class="hero-contact">
+                    <a href="mailto:adiyaan126@mail.com" class="contact-item">📧 adiyaan126@mail.com</a>
+                    <a href="tel:6374638484" class="contact-item">📞 6374638484</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Computer Science student at Vellore Institute of Technology, Chennai, with a passion for developing innovative solutions using cutting-edge technologies. My expertise spans full-stack development, machine learning, and computer vision.</p>
+                    <p>I have hands-on experience in building web applications, AI-powered systems, and IoT solutions. I'm constantly learning and exploring new technologies to stay at the forefront of software development.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Internships</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skills-bubbles" id="skills-bubbles">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-category="featured">
+                    <div class="project-header">
+                        <h3 class="project-title">Moodify</h3>
+                        <span class="project-type">Featured</span>
+                    </div>
+                    <p class="project-description">A music recommendation system using facial emotion detection via computer vision</p>
+                    <div class="project-technologies">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Computer Vision</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="featured">
+                    <div class="project-header">
+                        <h3 class="project-title">PricePulse</h3>
+                        <span class="project-type">Featured</span>
+                    </div>
+                    <p class="project-description">A product price tracker and forecasting dashboard using React + FastAPI</p>
+                    <div class="project-technologies">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Data Analysis</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="featured">
+                    <div class="project-header">
+                        <h3 class="project-title">AI-Powered Employment Platform</h3>
+                        <span class="project-type">Featured</span>
+                    </div>
+                    <p class="project-description">Built job-matching course recommendation pages with intelligent filtering and categorization</p>
+                    <div class="project-technologies">
+                        <span class="tech-tag">AI/ML</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Algorithm Design</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="featured">
+                    <div class="project-header">
+                        <h3 class="project-title">Facial Emotion Detection System</h3>
+                        <span class="project-type">Featured</span>
+                    </div>
+                    <p class="project-description">Real-time emotion recognition app using OpenCV and deep learning</p>
+                    <div class="project-technologies">
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">Deep Learning</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Computer Vision</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="previous">
+                    <div class="project-header">
+                        <h3 class="project-title">Smart Irrigation System</h3>
+                        <span class="project-type">Previous</span>
+                    </div>
+                    <p class="project-description">IoT and Machine Learning system for agricultural optimization</p>
+                    <div class="project-technologies">
+                        <span class="tech-tag">IoT</span>
+                        <span class="tech-tag">ML</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Arduino IDE</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="previous">
+                    <div class="project-header">
+                        <h3 class="project-title">Quantum NLP Analysis</h3>
+                        <span class="project-type">Previous</span>
+                    </div>
+                    <p class="project-description">Comparative study of traditional and quantum NLP techniques</p>
+                    <div class="project-technologies">
+                        <span class="tech-tag">Qiskit</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">Machine Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2024 - June 2024</div>
+                        <h3 class="timeline-title">Machine Learning Intern</h3>
+                        <h4 class="timeline-subtitle">CodSoft Pvt Ltd</h4>
+                        <p class="timeline-description">Developed ML models with TensorFlow, focused on recommendation systems</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2024 - April 2024</div>
+                        <h3 class="timeline-title">Web Developer Intern</h3>
+                        <h4 class="timeline-subtitle">CodSoft Pvt Ltd</h4>
+                        <p class="timeline-description">Developed responsive web interfaces using HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - 2026</div>
+                        <h3 class="timeline-title">B.Tech Computer Science</h3>
+                        <h4 class="timeline-subtitle">Vellore Institute of Technology, Chennai</h4>
+                        <p class="timeline-description">CGPA: 7.87</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3 class="certifications-title">Certifications</h3>
+                <div class="cert-list">
+                    <span class="status status--success">Microsoft Azure: DP 900</span>
+                    <span class="status status--success">Udemy Web Development</span>
+                    <span class="status status--success">Cloud Computing Udemy</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:adiyaan126@mail.com" class="contact-value">adiyaan126@mail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:6374638484" class="contact-value">6374638484</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <div class="contact-details">
+                            <span class="contact-label">LinkedIn</span>
+                            <a href="https://linkedin.com/rmohammedadiyaan" target="_blank" class="contact-value">linkedin.com/rmohammedadiyaan</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💻</span>
+                        <div class="contact-details">
+                            <span class="contact-label">GitHub</span>
+                            <a href="https://github.com/adiyaan" target="_blank" class="contact-value">github.com/adiyaan</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Mohammed Adiyaan R. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://linkedin.com/rmohammedadiyaan" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/adiyaan" target="_blank">GitHub</a>
+                    <a href="mailto:adiyaan126@mail.com">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
